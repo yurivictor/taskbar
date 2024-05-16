@@ -1,0 +1,132 @@
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+.dock {
+  background-color: #F7F1E1;
+  border: 1px solid #4E544E;
+  border-radius: 8px;
+  color: #4E544E;
+  font-family: Menlo;
+  font-size: 12px;
+  display: flex;
+  line-height: 40px;
+  margin: 0 15px 15px 15px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+.border {
+  background-color: white;
+  padding: 0;
+  width: 1px;
+}
+
+.app {
+  color: #999;;
+  padding: 0 5px;
+}
+
+.app i {
+  font-size: 12px;
+  text-align: center;
+}
+
+.apps {
+  border-right: 1px solid #4E544E;
+  padding-right: 15px;
+}
+.system {
+  border-left: 1px solid #4E544E;
+  margin-left: auto;
+  padding: 0 15px;
+}
+
+.system li {
+  padding: 0 5px;
+}
+
+.margin-right {
+  background-color: #4E544E;
+  border-right: 1px solid #4E544E;
+  padding: 0 15px;
+  margin-right: 15px;
+}
+
+.margin-right i {
+  color: white; 
+}
+
+.running {
+  color: #4E544E;
+  position: relative;
+}
+
+.notification {
+  color: #E7131A;
+}
+
+.grey {
+  color: #999;
+}
+
+.red {
+  color: red;
+}
+
+.borders {
+  border-left: 1px solid #4E544E;
+  border-right: 1px solid #4E544E;
+  margin: 0 15px;
+  padding: 0 15px !important;
+}
+
+.folders,
+.folders li {
+  cursor: pointer;
+  position: relative;
+}
+
+.folders p {
+  border-right: 1px solid #4E544E;
+  padding: 0 15px; 
+}
+
+.folders li ul {
+  background-color: #F7F1E1;
+  border-right: 1px solid #4E544E;
+  bottom: 0;
+  display: flex;
+  left: 105px;
+  position: absolute;
+  z-index: 2;
+}
+#websites {
+  left: 105px;
+  padding-left: 5px;
+}
+
+.folders li ul li {
+  align-items: center;
+  display: flex;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.folders li ul li i {
+  padding-right: 5px;
+}
+.folders li ul li a {
+  color: #4E544E;
+}

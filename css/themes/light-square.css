@@ -1,0 +1,59 @@
+:root {
+  --color-accent: #aaa;
+  --color-background: white;
+  --color-border: #6c6c6c;
+  --color-red: #E7131A;
+  --color-text: #6c6c6c;
+  --font-size: 12px;
+  --font-system: Menlo;
+
+  --default-height: 50px;
+  --default-spacing: 15px;
+  --default-width: 1680px;
+}
+
+.dock {
+  border-top: 1px solid var( --color-border );
+  display: flex;
+  justify-content: space-between;
+  line-height: var( --default-height );
+  width: var( --default-width );
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: var( --color-text );
+  font-size: var( --font-size );
+  font-family: var( --font-system );
+  line-height: var( --dock-height );
+  padding: 0 var( --default-spacing );
+}
+
+.border {
+  background-color: var( --color-border );
+  padding: 0;
+  width: 1px;
+}
+
+.app i {
+  font-size: 18px;
+  text-align: center;
+}
+
+.running {
+  color: var( --color-accent );
+}
+
+.notification {
+  color: #E7131A
+}
+
+.margin-right {
+  margin-right: var( --default-spacing );
+}

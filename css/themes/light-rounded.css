@@ -1,0 +1,77 @@
+:root {
+  --color-accent: #6c6c6c;
+  --color-background: white;
+  --color-border: #6c6c6c;
+  --color-red: #E7131A;
+  --color-text: #6c6c6c;
+  --dock-height: 50px;
+  --font-size: 12px;
+  --font-system: Menlo;
+  --default-spacing: 15px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: var( --color-text );
+  font-size: var( --font-size );
+  font-family: var( --font-system );
+  line-height: var( --dock-height );
+  padding: 0 var( --default-spacing );
+}
+
+.dock {
+  display: flex;
+  justify-content: space-between;
+  width: 1680px;
+}
+
+.border {
+  background-color: var( --color-border );
+  height: var( --dock-height );
+  padding: 0;
+  width: 1px;
+}
+
+.apps {
+  margin-left: 35px;
+}
+
+.system {
+  border: 1px solid #6c6c6c;
+  border-bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 35px;
+}
+
+
+.app {
+  border-top: 1px solid #6c6c6c;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #bdbdbd;
+  text-align: center;
+  width: 50px;
+}
+.app i {
+  font-size: 18px;
+  line-height: var( --dock-height );
+  text-align: center;
+}
+.running {
+  color: #6c6c6c
+}
+
+.notification {
+  color: #E7131A
+}
+
+.margin-right {
+  margin-right: var( --default-spacing );
+}

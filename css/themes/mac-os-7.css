@@ -1,0 +1,40 @@
+:root {
+  --button-box-shadow:
+    inset -1px -1px 0px 0px #777,
+    inset -2px -2px 0px 0px #aaa,
+    inset 1px 1px 0px 0px #ddd,
+    inset 2px 2px 0px 0px #fff;
+  --button-hover-bezel:
+    0 0 0 1px #aaa,
+    0 0 0 2px #ddd,
+    0 0 0 3px #000;
+}
+
+.dock {
+  border: 1px solid #101010;
+  background: linear-gradient(#bebebe, #7e7e7e);
+  color: #4E544E;
+  display: flex;
+  font-family: Menlo;
+  font-size: 12px;
+  line-height: 10px;
+  margin: 0 15px 15px 15px;
+  box-shadow:
+	1px 2px #111,
+	inset 1px 1px 0px 0px #fff,
+	inset -1px -1px 0px 0px #999;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.system li {
+  border-top: 2px solid #fafafa;
+  border-right: 2px solid #101010;
+  border-left: 2px solid #fafafa;
+  padding: 0 5px;
+}

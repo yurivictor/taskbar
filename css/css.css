@@ -1,0 +1,74 @@
+.dock {
+  color: white;
+  font-family: Menlo;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  width: 1680px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0 15px;
+}
+
+.border {
+  background-color: white;
+  padding: 0;
+  width: 1px;
+}
+
+.app {
+  color: #9a9a9a;
+}
+
+.app i {
+  font-size: 18px;
+  text-align: center;
+}
+
+.system li {
+  background-color: rgba( 250, 250, 250, .4 );
+  border-radius: 4px;
+  line-height: 10px;
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+.running {
+  color: white;
+  position: relative;
+}
+
+.running:after {
+  background-color: white;
+  content: '';
+  bottom: 0;
+  height: 1px;
+  left: calc(50% - 5px);
+  position: absolute;
+  width: 10px;
+}
+
+.notification:after {
+  background-color: #E7131A;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.grey {
+  color: #999;
+}
+
+.red {
+  color: red;
+}
